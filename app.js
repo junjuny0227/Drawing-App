@@ -12,6 +12,7 @@ function onMove(event) {
     ctx.stroke();
     return;
   }
+  ctx.beginPath();
   ctx.moveTo(event.offsetX, event.offsetY);
 }
 
